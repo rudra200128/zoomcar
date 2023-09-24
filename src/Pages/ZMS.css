@@ -1,0 +1,35 @@
+.zms-container {
+    text-align: center;
+    /* Center the content horizontally */
+    margin-top: 20px;
+    /* Add some top margin to space it from the top */
+}
+
+.zms-heading {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    /* Adjust the font size as needed */
+}
+
+.zms-paragraph {
+    /* font-size: 16px;
+    margin-bottom: 20px; */
+    font-size: 16px;
+    /* Adjust the font size as needed */
+    line-height: 1.5;
+    /* Set the line height to improve readability and spacing */
+    margin-bottom: 20px;
+    /* Adjust the font size as needed */
+}
+
+.zms-image {
+    max-width: 100%;
+    /* Ensure the image doesn't exceed its container's width */
+    height: auto;
+    /* Maintain the image's aspect ratio */
+    margin: 20px auto;
+    /* Add some top and bottom margin and auto for left and right to center horizontally */
+    display: block;
+    /* Ensures the image is a block element */
+}

@@ -2,7 +2,7 @@ import {
   Box,
   Flex,
   Button,
- 
+
   useDisclosure,
   Drawer,
   DrawerBody,
@@ -13,7 +13,7 @@ import {
   Text,
 } from "@chakra-ui/react";
 import navbar from "../../Styles/HomeNavbar.module.css";
-import bumBlebee from "..//..//Assets/bumBlebee.jpg";
+import ZoomcarLogo from "..//..//Assets/ZoomcarLogo.png";
 import React from "react";
 import { HamburgerIcon } from "@chakra-ui/icons";
 import { GiTwoCoins } from "react-icons/gi";
@@ -27,7 +27,7 @@ import {
   FaRegCopy,
   FaMapMarkerAlt,
   FaPhone,
- 
+
   FaWindowClose,
 } from "react-icons/fa";
 import { Link } from "react-router-dom";
@@ -221,7 +221,7 @@ const Navbar = () => {
                           <Text
                             fontSize="16px"
                             cursor="pointer"
-                           
+
                             onClick={logoutUser}
                           >
                             Logout
@@ -238,19 +238,19 @@ const Navbar = () => {
                   className="zoomLogoNavbar"
                   width="120px"
                   height="40px"
-                  src={bumBlebee}
+                  src={ZoomcarLogo}
                   cursor="pointer"
                 />
               </RouterLink>
             </Flex>
-           
+
             <Flex
               minWidth={{ lg: "320px", md: "320px", sm: "10px" }}
               alignItems="center"
               gap="20px"
               direction="row"
               width="auto"
-          
+
             >
               <Box>
                 <Text
@@ -322,7 +322,7 @@ const Navbar = () => {
                 </Text>
               </Box>
             </Flex>
-    
+
           </Flex>
         </Box>
       ) : (
@@ -418,7 +418,7 @@ const Navbar = () => {
                           <Text
                             fontSize="16px"
                             cursor="pointer"
-                         
+
                           >
                             Login
                           </Text>
@@ -433,13 +433,13 @@ const Navbar = () => {
                   className="zoomLogoNavbar"
                   width={{ lg: "120px", md: "100px", sm: "50px" }}
                   height="60px"
-                  src={bumBlebee}
+                  src={ZoomcarLogo}
                   cursor="pointer"
                 />
               </RouterLink>
             </Flex>
 
-      
+
 
             <Flex
               minWidth={{ lg: "320px", md: "320px", sm: "10px" }}
@@ -447,7 +447,7 @@ const Navbar = () => {
               gap="20px"
               direction="row"
               width="auto"
-           
+
             >
               <Box>
                 <Text
@@ -517,7 +517,7 @@ const Navbar = () => {
               </Box>
             </Flex>
 
-         
+
           </Flex>
         </Box>
       )}
